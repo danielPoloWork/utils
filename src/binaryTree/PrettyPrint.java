@@ -12,15 +12,21 @@ public class PrettyPrint {
     public void print(TreeNode node, boolean isLeft) {
         if (Optional.ofNullable(node).isEmpty()) {
             out.append("Empty tree");
-        } else if (Optional.ofNullable(node.right).isPresent()) {
-            out.append(isLeft ? "│   " : "    ");
-            print(node.right, false);
+        } else {
+            if (Optional.ofNullable(node.right).isPresent()) {
+                out.append(isLeft ? "│   " : "    ");
+                print(node.right, false);
+            }
+
             out.append(isLeft ? "└── " : "┌── ")
                .append(node.value);
-        } else if (Optional.ofNullable(node.left).isPresent()) {
-            out.append(isLeft ? "    " : "│   ");
-            print(node.left,true);
+
+            if (Optional.ofNullable(node.left).isPresent()) {
+                out.append(isLeft ? "    " : "│   ");
+                print(node.left, true);
+            }
         }
+
         System.out.println(out);
     }
 }
