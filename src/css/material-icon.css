@@ -1,0 +1,291 @@
+/*  @author Daniel.Polo @year 2023 @owner Google inc.
+    MATERIAL ICONS
+
+    Material design system icons are simple, modern, friendly, and sometimes quirky. Each icon is created using our
+    design guidelines to depict in simple and minimal forms the universal concepts used commonly throughout a UI.
+    Ensuring readability and clarity at both large and small sizes, these icons have been optimized for beautiful
+    display on all common platforms and display resolutions.
+
+    See the full set of material design icons in the Material Icons Library: https://fonts.google.com/icons.
+
+    Getting icons
+        The icons are available in several formats and are suitable for different types of projects and platforms, for
+        developers in their apps, and for designers in their mockups or prototypes.
+
+    Licensing
+        We have made these icons available for you to incorporate them into your products under the Apache License
+        Version 2.0:
+            - http://www.apache.org/licenses/LICENSE-2.0.txt.
+        Feel free to remix and re-share these icons and documentation in your products. We'd love attribution in your
+        app's about screen, but it's not required.
+
+    Browsing and downloading individual icons
+        The complete set of material icons are available on the material icon library:
+            - https://fonts.google.com/icons/.
+        The icons are available for download in SVG or PNGs, formats that are suitable for web, Android, and iOS
+        projects or for inclusion in any designer tools.The icons are available for download in SVG or PNGs, formats
+        that are suitable for web, Android, and iOS projects or for inclusion in any designer tools.
+
+    Downloading everything
+        Grab the latest stable zip archive (~310MB):
+            - https://github.com/google/material-design-icons/archive/refs/tags/4.0.0.zip
+        of all icons or the bleeding-edge version from master:
+            - https://github.com/google/material-design-icons/archive/master.zip.
+
+    Git Repository
+        The material icons are available from the git repository:
+            - https://github.com/google/material-design-icons
+        which contains the complete set of icons including all the various formats we are making available.
+
+            $ git clone https://github.com/google/material-design-icons/
+
+    Icon font for the web
+        The material icon font is the easiest way to incorporate material icons with web projects. We have packaged all
+        the material icons into a single font that takes advantage of the typographic rendering capabilities of modern
+        browsers so that web developers can easily incorporate these icons with only a few lines of code.
+
+        Using the font is not only the most convenient method, but it is efficient and looks great:
+            - 900+ icons all from a single, small file.
+            - Served from Google Web Font servers or can be self hosted.
+            - Supported by all modern web browsers.
+            - Colored, sized and positioned entirely with CSS.
+            - Vector-based: Looks great at any scale, retina displays, low-dpi display screens.
+
+        The icon font weighs in at only 42KB in its smallest woff2 format and 56KB in standard woff format. By
+        comparison, the SVG files compressed with gzip will generally be around 62KB in size, but this can be reduced
+        considerably by compiling only the icons you need into a single SVG file with symbol sprites.
+
+    Setup Method 1. Using via Google Fonts
+        The easiest way to set up icon fonts for use in any web page is through Google Fonts:
+            - https://developers.google.com/fonts/docs/getting_started.
+        All you need to do is include a single line of HTML:
+
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        Similar to other Google Web Fonts, the correct CSS will be served to activate the 'Material Icons' font specific
+        to the browser. An additional CSS class will be declared called .material-icons. Any element that uses this
+        class will have the correct CSS to render these icons from the web font.
+
+    Setup Method 2. Self hosting
+        For those looking to self host the web font, some additional setup is necessary. Host the icon font:
+            - https://github.com/google/material-design-icons/tree/master/font
+        in a location, for example https://example.com/material-icons.woff, and add the following CSS rule:
+
+            @font-face {
+                font-family: 'Material Icons';
+                font-style: normal;
+                font-weight: 400;
+                // For IE6-8
+                src: url(https://example.com/MaterialIcons-Regular.eot);
+                src: local('Material Icons'),
+                     local('MaterialIcons-Regular'),
+                     url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+                     url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+                     url(https://example.com/MaterialIcons-Regular.ttf) format('etruetype');
+            }
+
+        In addition, the CSS rules for rendering the icon will need to be declared to render the font properly. These
+        rules are normally served as part of the Google Web Font stylesheet, but will need to be included manually in
+        your projects when self-hosting the font:
+
+            .material-icons {
+                font-family: 'Material Icons';
+                font-weight: normal;
+                font-style: normal;
+                // Preferred icon size
+                font-size: 24px;
+                display: inline-block;
+                line-height: 1;
+                text-transform: none;
+                letter-spacing: normal;
+                word-wrap: normal;
+                white-space: nowrap;
+                direction: ltr;
+
+                // Support for all WebKit browsers.
+                -webkit-font-smoothing: antialiased;
+
+                // Support for Safari and Chrome.
+                text-rendering: optimizeLegibility;
+
+                // Support for Firefox.
+                -moz-osx-font-smoothing: grayscale;
+
+                // Support for IE.
+                font-feature-settings: 'liga';
+            }
+
+    Using the icons in HTML
+        It’s easy to incorporate icons into your web page. Here’s a small example:
+
+            <span class="material-icons">face</span>
+
+        This example uses a typographic feature called ligatures:
+            - http://alistapart.com/article/the-era-of-symbol-fonts,
+        which allows rendering of an icon glyph simply by using its textual name. The replacement is done automatically
+        by the web browser and provides more readable code than the equivalent numeric character reference.
+
+        This feature is supported in most modern browsers on both desktop and mobile devices.
+
+            Browser	Version                 Supporting ligatures
+            Google Chrome	                11
+            Mozilla Firefox	                3.5
+            Apple Safari	                5
+            Microsoft IE	                10
+            Microsoft Edge	                18
+            Opera	                        15
+            Apple MobileSafari	            iOS 4.2
+            Android Browser	                3.0
+
+        For browsers that do not support ligatures, fall back to specifying the icons using numeric character references
+        like the example below:
+
+            Normal: <span class="material-icons">&#xE87C;</span>
+
+        Find both the icon names and codepoints on the material icons library:
+            - https://fonts.google.com/icons/
+        by selecting any icon and opening the icon font panel. Each icon font has a codepoints index in our git
+        repository showing the complete set of names and character codes here:
+            - https://github.com/google/material-design-icons/tree/master/font.
+
+    Styling icons in material design
+        These icons were designed to follow the material design guidelines:
+            - https://www.google.com/design/spec/iconography
+        and they look best when using the recommended icon sizes and colors. The styles below make it easy to apply our
+        recommended sizes, colors, and activity states.
+
+            Rules
+
+            // Rules for sizing the icon.
+            .material-icons.md-18 { font-size: 18px; }
+            .material-icons.md-24 { font-size: 24px; }
+            .material-icons.md-36 { font-size: 36px; }
+            .material-icons.md-48 { font-size: 48px; }
+
+            // Rules for using icons as black on a light background.
+            .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+            .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+            // Rules for using icons as white on a dark background.
+            .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+            .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+            Sizing
+                Although the icons in the font can be scaled to any size, in accordance with material design icons
+                guidelines:
+                    - https://www.google.com/design/spec/iconography/system-icons.html,
+                we recommend them to be shown in either 18, 24, 36 or 48px. The default being 24px.
+
+                CSS rules for the standard material design sizing guidelines:
+
+                    .material-icons.md-18 { font-size: 18px; }
+                    .material-icons.md-24 { font-size: 24px; }
+                    .material-icons.md-36 { font-size: 36px; }
+                    .material-icons.md-48 { font-size: 48px; }
+
+                Material icons look best at 24px, but if an icon needs to be displayed in an alternative size, using the
+                above CSS rules can help:
+
+                    18px - <span class="material-icons md-18">face</span>
+                    24px - <span class="material-icons md-24">face</span>
+                    36px - <span class="material-icons md-36">face</span>
+                    48px - <span class="material-icons md-48">face</span>
+
+            Coloring
+                Using the icon font allows for easy styling of an icon in any color. In accordance with material design
+                icon guidelines:
+                    - https://www.google.com/design/spec/iconography/system-icons.html#color,
+                for active icons we recommend using either black at 54% opacity or white at 100% opacity when displaying
+                these on light or dark backgrounds, respectively. If an icon is disabled or inactive, using black at 26%
+                or white at 30% for light and dark backgrounds, respectively.
+
+                Here are some examples, using the material CSS styles described above:
+
+                    // Coloring dark
+                    .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+                    .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+                    // Coloring light
+                    .material-icons.md-light { color: rgba(255, 255, 255, 1); }
+                    .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+                Example for drawing an icon on a light background with a dark foreground color:
+
+                    Normal - <span class="material-icons md-dark">face</span>
+                    Disabled - <span class="material-icons md-dark md-inactive">face</span>
+
+                Example for drawing an icon on a dark background with a light foreground color:
+
+                    Normal - <span class="material-icons md-light">face</span>
+                    Disabled - <span class="material-icons md-light md-inactive">face</span
+
+                To set a custom icon color, define a CSS rule specifying the desired color for the font:
+
+                    .material-icons.orange600 { color: #FB8C00; }
+
+                and then use the class when referring to the icon:
+
+                    Normal - <span class="material-icons orange600">face</span>
+
+    Icon images for the web
+        Material icons are also available as regular images, both in PNG and SVG formats.
+
+        SVG
+            The material icons are provided as SVGs that are suitable for web projects. Individual icons are
+            downloadable from the material icons library:
+                - https://fonts.google.com/icons/.
+            The SVGs are also available from the material design icons git repository:
+                - https://github.com/google/material-design-icons/
+            under the path:
+                material-design-icons/src/
+
+            For example, icons for maps are in src/maps:
+                - https://github.com/google/material-design-icons/tree/master/src/maps
+                material-design-icons/src/maps/
+
+            If multiple icons are in use on a web site, creating spritesheets out of the images is recommended. For more
+            information, refer to the documentation in the sprites directory of the git repository:
+                - https://github.com/google/material-design-icons/tree/master/sprites.
+
+        PNG
+            PNG is the most traditional way to display icons on the web. Our downloads from the material icons library:
+                - https://fonts.google.com/icons/
+            provide both single and double densities for each icon. They are referred to as 1x and 2x respectively in
+            the download. Icons are also available in the git repository under:
+                material-design-icons/png/
+            If multiple icons are in use on a web site, creating spritesheets out of the images is recommended. For more
+            information, refer to recommendations in the sprites directory in the git repository:
+                - https://github.com/google/material-design-icons/tree/master/sprites.
+*/
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    -webkit-font-smoothing: antialiased; /* Support for all WebKit browsers. */
+    text-rendering: optimizeLegibility;  /* Support for Safari and Chrome. */
+    -moz-osx-font-smoothing: grayscale;  /* Support for Firefox. */
+    font-feature-settings: 'liga';       /* Support for IE. */
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }

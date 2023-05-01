@@ -1,0 +1,12 @@
+/*  @author Daniel.Polo @year 2023 @owner Google inc.
+    MATERIAL FONTS
+
+    Setup Method
+        The easiest way to set up fonts for use in any web page is through Google Fonts:
+            - https://developers.google.com/fonts/docs/getting_started.
+        All you need to do is include a single line of HTML:
+
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+*/
+
+body { font-family: 'Lato', serif; }

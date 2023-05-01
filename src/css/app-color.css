@@ -1,0 +1,684 @@
+/*  @author Daniel.Polo @year 2023 @owner Daniel Polo
+    COLOR PALETTE
+    rgba(red,green,blue,transparency);
+ */
+
+/* --------------------------------------------------------------------------------------------------------------------- Theme 1
+   Black
+*/
+.cp1-bkg-black10 {
+    background-color: rgba(0,0,0,1.0);
+}
+.cp1-bkg-black08 {
+    background-color: rgba(0,0,0,0.8);
+}
+.cp1-bkg-black06 {
+    background-color: rgba(0,0,0,0.6);
+}
+.cp1-bkg-black04 {
+    background-color: rgba(0,0,0,0.4);
+}
+.cp1-bkg-black02 {
+    background-color: rgba(0,0,0,0.2);
+}
+.cp1-bkg-black00 {
+    background-color: rgba(0,0,0,0.0);
+}
+.cp1-brd-black {
+    border-color: rgba(0,0,0,1.0);
+}
+.cp1-clr-black {
+    color: rgba(0,0,0,1.0);
+}
+
+/* Dark Gray */
+.cp1-bkg-secondarydark10 {
+    background-color: rgba(72,72,72,1.0);
+}
+.cp1-bkg-secondarydark08 {
+    background-color: rgba(72,72,72,0.8);
+}
+.cp1-bkg-secondarydark06 {
+    background-color: rgba(72,72,72,0.6);
+}
+.cp1-bkg-secondarydark04 {
+    background-color: rgba(72,72,72,0.4);
+}
+.cp1-bkg-secondarydark02 {
+    background-color: rgba(72,72,72,0.2);
+}
+.cp1-bkg-secondarydark00 {
+    background-color: rgba(72,72,72,0.0);
+}
+.cp1-brd-secondarydark {
+    border-color: rgba(72,72,72,1.0);
+}
+.cp1-clr-secondarydark {
+    color: rgba(72,72,72,1.0);
+}
+
+/* Gray */
+.cp1-bkg-secondarylight10 {
+    background-color: rgba(218,218,218,1.0);
+}
+.cp1-bkg-secondarylight08 {
+    background-color: rgba(218,218,218,0.8);
+}
+.cp1-bkg-secondarylight06 {
+    background-color: rgba(218,218,218,0.6);
+}
+.cp1-bkg-secondarylight04 {
+    background-color: rgba(218,218,218,0.4);
+}
+.cp1-bkg-secondarylight02 {
+    background-color: rgba(218,218,218,0.2);
+}
+.cp1-bkg-secondarylight00 {
+    background-color: rgba(218,218,218,0.0);
+}
+.cp1-brd-secondarylight {
+    border-color: rgba(218,218,218,1.0);
+}
+.cp1-clr-secondarylight {
+    color: rgba(218,218,218,1.0);
+}
+
+/* Light Gray */
+.cp1-bkg-disabled10 {
+    background-color: rgba(241,241,241,1.0);
+}
+.cp1-bkg-disabled08 {
+    background-color: rgba(241,241,241,0.8);
+}
+.cp1-bkg-disabled06 {
+    background-color: rgba(241,241,241,0.6);
+}
+.cp1-bkg-disabled04 {
+    background-color: rgba(241,241,241,0.4);
+}
+.cp1-bkg-disabled02 {
+    background-color: rgba(241,241,241,0.2);
+}
+.cp1-bkg-disabled00 {
+    background-color: rgba(241,241,241,0.0);
+}
+.cp1-brd-disabled {
+    border-color: rgba(241,241,241,1.0);
+}
+.cp1-clr-disabled {
+    color: rgba(241,241,241,1.0);
+}
+
+/* Blue Gray */
+.cp1-bkg-active10 {
+    background-color: rgba(126,144,154,1.0);
+}
+.cp1-bkg-active08 {
+    background-color: rgba(126,144,154,0.8);
+}
+.cp1-bkg-active06 {
+    background-color: rgba(126,144,154,0.6);
+}
+.cp1-bkg-active04 {
+    background-color: rgba(126,144,154,0.4);
+}
+.cp1-bkg-active02 {
+    background-color: rgba(126,144,154,0.2);
+}
+.cp1-bkg-active00 {
+    background-color: rgba(126,144,154,0.0);
+}
+.cp1-brd-active {
+    border-color: rgba(126,144,154,1.0);
+}
+.cp1-clr-active {
+    color: rgba(126,144,154,1.0);
+}
+
+/* Dark Blue */
+.cp1-bkg-primarydark10 {
+    background-color: rgba(32,40,62,1.0);
+}
+.cp1-bkg-primarydark08 {
+    background-color: rgba(32,40,62,0.8);
+}
+.cp1-bkg-primarydark06 {
+    background-color: rgba(32,40,62,0.6);
+}
+.cp1-bkg-primarydark04 {
+    background-color: rgba(32,40,62,0.4);
+}
+.cp1-bkg-primarydark02 {
+    background-color: rgba(32,40,62,0.2);
+}
+.cp1-bkg-primarydark00 {
+    background-color: rgba(32,40,62,0.0);
+}
+.cp1-brd-primarydark {
+    border-color: rgba(32,40,62,1.0);
+}
+.cp1-clr-primarydark {
+    color: rgba(32,40,62,1.0);
+}
+
+/* Blue */
+.cp1-bkg-primary10 {
+    background-color: rgba(28,78,128,1.0);
+}
+.cp1-bkg-primary08 {
+    background-color: rgba(28,78,128,0.8);
+}
+.cp1-bkg-primary06 {
+    background-color: rgba(28,78,128,0.6);
+}
+.cp1-bkg-primary04 {
+    background-color: rgba(28,78,128,0.4);
+}
+.cp1-bkg-primary02 {
+    background-color: rgba(28,78,128,0.2);
+}
+.cp1-bkg-primary00 {
+    background-color: rgba(28,78,128,0.0);
+}
+.cp1-brd-primary {
+    border-color: rgba(28,78,128,1.0);
+}
+.cp1-clr-primary {
+    color: rgba(28,78,128,1.0);
+}
+
+/* Light Blue */
+.cp1-bkg-primarylight10 {
+    background-color: rgba(72,138,153,1.0);
+}
+.cp1-bkg-primarylight08 {
+    background-color: rgba(72,138,153,0.8);
+}
+.cp1-bkg-primarylight06 {
+    background-color: rgba(72,138,153,0.6);
+}
+.cp1-bkg-primarylight04 {
+    background-color: rgba(72,138,153,0.4);
+}
+.cp1-bkg-primarylight02 {
+    background-color: rgba(72,138,153,0.2);
+}
+.cp1-bkg-primarylight00 {
+    background-color: rgba(72,138,153,0.0);
+}
+.cp1-brd-primarylight {
+    border-color: rgba(72,138,153,1.0);
+}
+.cp1-clr-primarylight {
+    color: rgba(72,138,153,1.0);
+}
+
+/* Green */
+.cp1-bkg-success10 {
+    background-color: rgba(106,177,135,1.0);
+}
+.cp1-bkg-success08 {
+    background-color: rgba(106,177,135,0.8);
+}
+.cp1-bkg-success06 {
+    background-color: rgba(106,177,135,0.6);
+}
+.cp1-bkg-success04 {
+    background-color: rgba(106,177,135,0.4);
+}
+.cp1-bkg-success02 {
+    background-color: rgba(106,177,135,0.2);
+}
+.cp1-bkg-success00 {
+    background-color: rgba(106,177,135,0.0);
+}
+.cp1-brd-success {
+    border-color: rgba(106,177,135,1.0);
+}
+.cp1-clr-success {
+    color: rgba(106,177,135,1.0);
+}
+
+/* Yellow */
+.cp1-bkg-warning10 {
+    background-color: rgba(219,174,88,1.0);
+}
+.cp1-bkg-warning08 {
+    background-color: rgba(219,174,88,0.8);
+}
+.cp1-bkg-warning06 {
+    background-color: rgba(219,174,88,0.6);
+}
+.cp1-bkg-warning04 {
+    background-color: rgba(219,174,88,0.4);
+}
+.cp1-bkg-warning02 {
+    background-color: rgba(219,174,88,0.2);
+}
+.cp1-bkg-warning00 {
+    background-color: rgba(219,174,88,0.0);
+}
+.cp1-brd-warning {
+    border-color: rgba(219,174,88,1.0);
+}
+.cp1-clr-warning {
+    color: rgba(219,174,88,1.0);
+}
+
+/* Orange */
+.cp1-bkg-special10 {
+    background-color: rgba(234,106,71,1.0);
+}
+.cp1-bkg-special08 {
+    background-color: rgba(234,106,71,0.8);
+}
+.cp1-bkg-special06 {
+    background-color: rgba(234,106,71,0.6);
+}
+.cp1-bkg-special04 {
+    background-color: rgba(234,106,71,0.4);
+}
+.cp1-bkg-special02 {
+    background-color: rgba(234,106,71,0.2);
+}
+.cp1-bkg-special00 {
+    background-color: rgba(234,106,71,0.0);
+}
+.cp1-brd-special {
+    border-color: rgba(234,106,71,1.0);
+}
+.cp1-clr-special {
+    color: rgba(234,106,71,1.0);
+}
+
+/* Red */
+.cp1-bkg-alert10 {
+    background-color: rgba(172,62,49,1.0);
+}
+.cp1-bkg-alert08 {
+    background-color: rgba(172,62,49,0.8);
+}
+.cp1-bkg-alert06 {
+    background-color: rgba(172,62,49,0.6);
+}
+.cp1-bkg-alert04 {
+    background-color: rgba(172,62,49,0.4);
+}
+.cp1-bkg-alert02 {
+    background-color: rgba(172,62,49,0.2);
+}
+.cp1-bkg-alert00 {
+    background-color: rgba(172,62,49,0.0);
+}
+.cp1-brd-alert {
+    border-color: rgba(172,62,49,1.0);
+}
+.cp1-clr-alert {
+    color: rgba(172,62,49,1.0);
+}
+
+/* White */
+.cp1-bkg-white10 {
+    background-color: rgba(255,255,255,1.0);
+}
+.cp1-bkg-white08 {
+    background-color: rgba(255,255,255,0.8);
+}
+.cp1-bkg-white06 {
+    background-color: rgba(255,255,255,0.6);
+}
+.cp1-bkg-white04 {
+    background-color: rgba(255,255,255,0.4);
+}
+.cp1-bkg-white02 {
+    background-color: rgba(255,255,255,0.2);
+}
+.cp1-bkg-white00 {
+    background-color: rgba(255,255,255,0.0);
+}
+.cp1-brd-white {
+    border-color: rgba(255,255,255,1.0);
+}
+.cp1-clr-white {
+    color: rgba(255,255,255,1.0);
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- Theme 2
+   Blue Gray 900 - Black
+*/
+.cp2-bkg-black10 {
+    background-color: rgba(38,50,56,1.0);
+}
+.cp2-bkg-black08 {
+    background-color: rgba(38,50,56,0.8);
+}
+.cp2-bkg-black06 {
+    background-color: rgba(38,50,56,0.6);
+}
+.cp2-bkg-black04 {
+    background-color: rgba(38,50,56,0.4);
+}
+.cp2-bkg-black02 {
+    background-color: rgba(38,50,56,0.2);
+}
+.cp2-bkg-black00 {
+    background-color: rgba(38,50,56,0.0);
+}
+.cp2-brd-black {
+    border-color: rgba(38,50,56,1.0);
+}
+.cp2-clr-black {
+    color: rgba(38,50,56,1.0);
+}
+
+/* Gray 700 - Secondary Dark*/
+.cp2-bkg-secondarydark10 {
+    background-color: rgba(67,67,67,1.0);
+}
+.cp2-bkg-secondarydark08 {
+    background-color: rgba(67,67,67,0.8);
+}
+.cp2-bkg-secondarydark06 {
+    background-color: rgba(67,67,67,0.6);
+}
+.cp2-bkg-secondarydark04 {
+    background-color: rgba(67,67,67,0.4);
+}
+.cp2-bkg-secondarydark02 {
+    background-color: rgba(67,67,67,0.2);
+}
+.cp2-bkg-secondarydark00 {
+    background-color: rgba(67,67,67,0.0);
+}
+.cp2-brd-secondarydark {
+    border-color: rgba(67,67,67,1.0);
+}
+.cp2-clr-secondarydark {
+    color: rgba(67,67,67,1.0);
+}
+
+/* Gray 300 - Secondary Light */
+.cp2-bkg-secondarylight10 {
+    color: rgba(224,224,224,1.0);
+}
+.cp2-bkg-secondarylight08 {
+    color: rgba(224,224,224,0.8);
+}
+.cp2-bkg-secondarylight06 {
+    color: rgba(224,224,224,0.6);
+}
+.cp2-bkg-secondarylight04 {
+    color: rgba(224,224,224,0.4);
+}
+.cp2-bkg-secondarylight02 {
+    color: rgba(224,224,224,0.2);
+}
+.cp2-bkg-secondarylight00 {
+    color: rgba(224,224,224,0.0);
+}
+.cp2-brd-secondarylight {
+    color: rgba(224,224,224,1.0);
+}
+.cp2-clr-secondarylight {
+    color: rgba(224,224,224,1.0);
+}
+
+/* Gray 50 - Disabled */
+.cp2-bkg-disabled10 {
+    color: rgba(250,250,250,1.0);
+}
+.cp2-bkg-disabled08 {
+    color: rgba(250,250,250,0.8);
+}
+.cp2-bkg-disabled06 {
+    color: rgba(250,250,250,0.6);
+}
+.cp2-bkg-disabled04 {
+    color: rgba(250,250,250,0.4);
+}
+.cp2-bkg-disabled02 {
+    color: rgba(250,250,250,0.2);
+}
+.cp2-bkg-disabled00 {
+    color: rgba(250,250,250,0.0);
+}
+.cp2-brd-disabled {
+    color: rgba(250,250,250,1.0);
+}
+.cp2-clr-disabled {
+    color: rgba(250,250,250,1.0);
+}
+
+/* Blue Gray 400 - Active*/
+.cp2-bkg-active10 {
+    color: rgba(120,144,156,1.0);
+}
+.cp2-bkg-active08 {
+    color: rgba(120,144,156,0.8);
+}
+.cp2-bkg-active06 {
+    color: rgba(120,144,156,0.6);
+}
+.cp2-bkg-active04 {
+    color: rgba(120,144,156,0.4);
+}
+.cp2-bkg-active02 {
+    color: rgba(120,144,156,0.2);
+}
+.cp2-bkg-active00 {
+    color: rgba(120,144,156,0.0);
+}
+.cp2-brd-active {
+    color: rgba(120,144,156,1.0);
+}
+.cp2-clr-active {
+    color: rgba(120,144,156,1.0);
+}
+
+/* Indigo 800 */
+.cp2-bkg-primarydark10 {
+    color: rgba(0,53,147,1.0);
+}
+.cp2-bkg-primarydark08 {
+    color: rgba(0,53,147,0.8);
+}
+.cp2-bkg-primarydark06 {
+    color: rgba(0,53,147,0.6);
+}
+.cp2-bkg-primarydark04 {
+    color: rgba(0,53,147,0.4);
+}
+.cp2-bkg-primarydark02 {
+    color: rgba(0,53,147,0.2);
+}
+.cp2-bkg-primarydark00 {
+    color: rgba(0,53,147,0.0);
+}
+.cp2-brd-primarydark {
+    color: rgba(0,53,147,1.0);
+}
+.cp2-clr-primarydark {
+    color: rgba(0,53,147,1.0);
+}
+
+/* Blue 800 */
+.cp2-bkg-primary10 {
+    color: rgba(2,119,189,1.0);
+}
+.cp2-bkg-primary08 {
+    color: rgba(2,119,189,0.8);
+}
+.cp2-bkg-primary06 {
+    color: rgba(2,119,189,0.6);
+}
+.cp2-bkg-primary04 {
+    color: rgba(2,119,189,0.4);
+}
+.cp2-bkg-primary02 {
+    color: rgba(2,119,189,0.2);
+}
+.cp2-bkg-primary00 {
+    color: rgba(2,119,189,0.0);
+}
+.cp2-brd-primary {
+    color: rgba(2,119,189,1.0);
+}
+.cp2-clr-primary {
+    color: rgba(2,119,189,1.0);
+}
+
+/* Cyan 800 */
+.cp2-bkg-primarylight10 {
+    color: rgba(0,131,143,1.0);
+}
+.cp2-bkg-primarylight08 {
+    color: rgba(0,131,143,0.8);
+}
+.cp2-bkg-primarylight06 {
+    color: rgba(0,131,143,0.6);
+}
+.cp2-bkg-primarylight04 {
+    color: rgba(0,131,143,0.4);
+}
+.cp2-bkg-primarylight02 {
+    color: rgba(0,131,143,0.2);
+}
+.cp2-bkg-primarylight00 {
+    color: rgba(0,131,143,0.0);
+}
+.cp2-brd-primarylight {
+    color: rgba(0,131,143,1.0);
+}
+.cp2-clr-primarylight {
+    color: rgba(0,131,143,1.0);
+}
+
+/* Light Green 800 */
+.cp2-bkg-success10 {
+    color: rgba(85,139,47,1.0);
+}
+.cp2-bkg-success08 {
+    color: rgba(85,139,47,0.8);
+}
+.cp2-bkg-success06 {
+    color: rgba(85,139,47,0.6);
+}
+.cp2-bkg-success04 {
+    color: rgba(85,139,47,0.4);
+}
+.cp2-bkg-success02 {
+    color: rgba(85,139,47,0.2);
+}
+.cp2-bkg-success00 {
+    color: rgba(85,139,47,0.0);
+}
+.cp2-brd-success {
+    color: rgba(85,139,47,1.0);
+}
+.cp2-clr-success {
+    color: rgba(85,139,47,1.0);
+}
+
+/* Yellow 800 */
+.cp2-bkg-warning10 {
+    color: rgba(249,168,37,1.0);
+}
+.cp2-bkg-warning08 {
+    color: rgba(249,168,37,0.8);
+}
+.cp2-bkg-warning06 {
+    color: rgba(249,168,37,0.6);
+}
+.cp2-bkg-warning04 {
+    color: rgba(249,168,37,0.4);
+}
+.cp2-bkg-warning02 {
+    color: rgba(249,168,37,0.2);
+}
+.cp2-bkg-warning00 {
+    color: rgba(249,168,37,0.0);
+}
+.cp2-brd-warning {
+    color: rgba(249,168,37,1.0);
+}
+.cp2-clr-warning {
+    color: rgba(249,168,37,1.0);
+}
+
+/* Orange 800 */
+.cp2-bkg-special10 {
+    color: rgba(239,108,0,1.0);
+}
+.cp2-bkg-special08 {
+    color: rgba(239,108,0,0.8);
+}
+.cp2-bkg-special06 {
+    color: rgba(239,108,0,0.6);
+}
+.cp2-bkg-special04 {
+    color: rgba(239,108,0,0.4);
+}
+.cp2-bkg-special02 {
+    color: rgba(239,108,0,0.2);
+}
+.cp2-bkg-special00 {
+    color: rgba(239,108,0,0.0);
+}
+.cp2-brd-special {
+    color: rgba(239,108,0,1.0);
+}
+.cp2-clr-special {
+    color: rgba(239,108,0,1.0);
+}
+
+/* Red 800 */
+.cp2-bkg-alert10 {
+    color: rgba(198,40,40,1.0);
+}
+.cp2-bkg-alert08 {
+    color: rgba(198,40,40,0.8);
+}
+.cp2-bkg-alert06 {
+    color: rgba(198,40,40,0.6);
+}
+.cp2-bkg-alert04 {
+    color: rgba(198,40,40,0.4);
+}
+.cp2-bkg-alert02 {
+    color: rgba(198,40,40,0.2);
+}
+.cp2-bkg-alert00 {
+    color: rgba(198,40,40,0.0);
+}
+.cp2-brd-alert {
+    color: rgba(198,40,40,1.0);
+}
+.cp2-clr-alert {
+    color: rgba(198,40,40,1.0);
+}
+
+/* White */
+.cp2-bkg-white10 {
+    color: rgba(255,255,255,1.0);
+}
+.cp2-bkg-white08 {
+    color: rgba(255,255,255,0.8);
+}
+.cp2-bkg-white06 {
+    color: rgba(255,255,255,0.6);
+}
+.cp2-bkg-white04 {
+    color: rgba(255,255,255,0.4);
+}
+.cp2-bkg-white02 {
+    color: rgba(255,255,255,0.2);
+}
+.cp2-bkg-white00 {
+    color: rgba(255,255,255,0.0);
+}
+.cp2-brd-white {
+    color: rgba(255,255,255,1.0);
+}
+.cp2-clr-white {
+    color: rgba(255,255,255,1.0);
+}

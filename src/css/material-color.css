@@ -1,0 +1,1240 @@
+/*  @author Daniel.Polo @year 2023 @owner Google inc.
+    THE MATERIAL COLOR SYSTEM
+    The Material Design color system can help you create a color theme that reflects your brand or style.
+
+    Color usage and palettes
+        The Material Design color system helps you apply color to your UI in a meaningful way. In this system, you
+        select a primary and a secondary color to represent your brand. Dark and light variants of each color can then
+        be applied to your UI in different ways.
+
+    Colors and theming
+        Color themes are designed to be harmonious, ensure accessible text, and distinguish UI elements and surfaces
+        from one another.
+
+    Principles
+        - Hierarchical
+            Color indicates which elements are interactive, how they relate to other elements, and their level of
+            prominence. Important elements should stand out the most.
+        - Legible
+            Text and important elements, like icons, should meet legibility standards when appearing on colored
+            backgrounds.
+        - Expressive
+            Show brand colors at memorable moments that reinforce your brand’s style.
+
+    The baseline Material color theme
+        Material Design comes designed with a built-in, baseline theme that can be used as-is, straight out of the
+        proverbial box.
+
+        This includes default colors for:
+            - Primary and secondary colors
+            - Variants of primary and secondary colors
+            - Additional UI colors, such as colors for backgrounds, surfaces, errors, typography, and iconography.
+
+    Primary color
+        A primary color is the color displayed most frequently across your app's screens and components.
+
+        Dark and light primary variants
+            Your primary color can be used to make a color theme for your app, including dark and light primary color
+            variants.
+
+        Distinguish UI elements
+            To create contrast between UI elements, such as a top app bar from a system bar, you can use light or dark
+            variants of your primary colors. You can also use these to distinguish elements within a component, such as
+            the icon of a floating action button from its circular container.
+
+    Secondary color
+        A secondary color provides more ways to accent and distinguish your product. Having a secondary color is
+        optional, and should be applied sparingly to accent select parts of your UI.
+
+        If you don’t have a secondary color, your primary color can also be used to accent elements.
+
+        Secondary colors are best for:
+            - Floating action buttons
+            - Selection controls, like sliders and switches
+            - Highlighting selected text
+            - Progress bars
+            - Links and headlines
+
+        Dark and light secondary variants
+            Just like the primary color, your secondary color can have dark and light variants. A color theme can use
+            your primary color, secondary color, and dark and light variants of each color.
+
+    Surface, background, and error colors
+        Surface, background, and error colors typically don’t represent brand:
+            - Surface colors affect surfaces of components, such as cards, sheets, and menus.
+            - The background color appears behind scrollable content. The baseline background and surface color is
+              #FFFFFF.
+            - Error color indicates errors in components, such as invalid text in a text field. The baseline error color
+              is #B00020.
+
+    Typography and iconography colors
+        App surfaces use colors from specific categories in your color palette, such as a primary color. Whenever
+        elements, such as text or icons, appear in front of those surfaces, those elements should use colors designed to
+        be clear and legible against the colors behind them.
+
+        This category of colors is called “on” colors, referring to the fact that they color elements that appear “on”
+        top of surfaces that use the following colors: a primary color, secondary color, surface color, background
+        color, or error color. When a color appears “on” top of a primary color, it’s called an “on primary color.” They
+        are labelled using the original color category (such as primary color) with the prefix “on.”
+
+        “On” colors are primarily applied to text, iconography, and strokes. Sometimes, they are applied to surfaces.
+
+        The default values for “on” colors are #FFFFFF and #000000.
+
+    Accessible colors
+        To ensure an accessible background behind light or dark text, your background can use light or dark variants of
+        your primary and secondary colors.
+
+        Alternatively, these colors can be used for typography that appears in front of light and dark backgrounds.
+
+        Color swatches
+            - A swatch is a sample of a color chosen from a range of similar colors.
+
+    Alternative colors
+        The Material Design color system supports alternative colors, which are colors used as alternatives to your
+        brand’s primary and secondary colors (they constitute additional colors to your theme). Alternative colors can
+        be used to distinguish different sections of a UI.
+
+        Alternative colors are best for:
+            - Apps with light and dark themes
+            - Apps with different themes in different sections
+            - Apps that are part of a suite of products
+
+        Alternative colors should be used cautiously, because they can be challenging to implement cohesively with
+        existing color themes.
+
+        Light and dark themes
+            Some apps have both light and dark themes. To maintain visibility of elements and legibility of text, you
+            can adapt the different color schemes for dark and light themes.
+
+   Additional colors for data visualization
+       Apps can use additional colors to convey categories that are outside of your main color theme. They are still a
+       part of your full color palette.
+
+   Tools for picking colors
+    The Material palette generator can be used to generate a palette for any color you input. Hue, chroma, and lightness
+    are adjusted by an algorithm that creates palettes that are usable and aesthetically pleasing.
+
+    Input colors
+        Color palettes can be generated based on the primary input color, and whether the desired palette should be
+        analogous, complementary, or triadic in relation to the primary color.
+
+        Alternatively, the tool can generate expanded palettes, based on any primary and secondary color.
+
+        Color variations for accessibility
+            These palettes provide additional ways to use your primary and secondary colors. They include lighter and
+            darker options to separate surfaces and provide colors that meet accessibility standards.
+
+    Material Design color palettes
+        These color palettes, originally created by Material Design in 2014, are comprised of colors designed to work
+        together harmoniously, and can be used to develop your brand palette. To generate your own harmonious palettes,
+        use the palette generation tool.
+
+        - https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
+*/
+
+/* --------------------------------------------------------------------------------------------------------------------- Red
+   Use 50,100,200,300,400,500,600,A100,A200,A400 with #000000
+   Use 700,800,900,A700 with #FFFFFF
+*/
+.material-color-red50 {color: #FFEBEE;}
+.material-backgroundcolor-red50 {background-color: #FFEBEE;}
+.material-bordercolor-red50 {border-color: #FFEBEE;}
+
+.material-color-red100 {color: #FFCDD2;}
+.material-backgroundcolor-red100 {background-color: #FFCDD2;}
+.material-bordercolor-red100 {border-color: #FFCDD2;}
+
+.material-color-red200 {color: #EF9A9A;}
+.material-backgroundcolor-red200 {background-color: #EF9A9A;}
+.material-bordercolor-red200 {border-color: #EF9A9A;}
+
+.material-color-red300 {color: #E57373;}
+.material-backgroundcolor-red300 {background-color: #E57373;}
+.material-bordercolor-red300 {border-color: #E57373;}
+
+.material-color-red400 {color: #EF5350;}
+.material-backgroundcolor-red400 {background-color: #EF5350;}
+.material-bordercolor-red400 {border-color: #EF5350;}
+
+.material-color-red500 {color: #F44336;}
+.material-backgroundcolor-red500 {background-color: #F44336;}
+.material-bordercolor-red500 {border-color: #F44336;}
+
+.material-color-red600 {color: #E53935;}
+.material-backgroundcolor-red600 {background-color: #E53935;}
+.material-bordercolor-red600 {border-color: #E53935;}
+
+.material-color-red700 {color: #D32F2F;}
+.material-backgroundcolor-red700 {background-color: #D32F2F;}
+.material-bordercolor-red700 {border-color: #D32F2F;}
+
+.material-color-red800 {color: #C62828;}
+.material-backgroundcolor-red800 {background-color: #C62828;}
+.material-bordercolor-red800 {border-color: #C62828;}
+
+.material-color-red900 {color: #B71C1C;}
+.material-backgroundcolor-red900 {background-color: #B71C1C;}
+.material-bordercolor-red900 {border-color: #B71C1C;}
+
+.material-color-redA100 {color: #FF8A80;}
+.material-backgroundcolor-redA100 {background-color: #FF8A80;}
+.material-bordercolor-redA100 {border-color: #FF8A80;}
+
+.material-color-redA200 {color: #FF5252;}
+.material-backgroundcolor-redA200 {background-color: #FF5252;}
+.material-bordercolor-redA200 {border-color: #FF5252;}
+
+.material-color-redA400 {color: #FF1744;}
+.material-backgroundcolor-redA400 {background-color: #FF1744;}
+.material-bordercolor-redA400 {border-color: #FF1744;}
+
+.material-color-redA700 {color: #D50000;}
+.material-backgroundcolor-redA700 {background-color: #D50000;}
+.material-bordercolor-redA700 {border-color: #D50000;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Pink
+   Use 50,100,200,300,400,500,A100,A200,A400 with #000000
+   Use 600,700,800,900,A700 with #FFFFFF
+*/
+.material-color-pink50 {color: #FCE4EC;}
+.material-backgroundcolor-pink50 {background-color: #FCE4EC;}
+.material-bordercolor-pink50 {border-color: #FCE4EC;}
+
+.material-color-pink100 {color: #F8BBD0;}
+.material-backgroundcolor-pink100 {background-color: #F8BBD0;}
+.material-bordercolor-pink100 {border-color: #F8BBD0;}
+
+.material-color-pink200 {color: #F48FB1;}
+.material-backgroundcolor-pink200 {background-color: #F48FB1;}
+.material-bordercolor-pink200 {border-color: #F48FB1;}
+
+.material-color-pink300 {color: #F06292;}
+.material-backgroundcolor-pink300 {background-color: #F06292;}
+.material-bordercolor-pink300 {border-color: #F06292;}
+
+.material-color-pink400 {color: #EC407A;}
+.material-backgroundcolor-pink400 {background-color: #EC407A;}
+.material-bordercolor-pink400 {border-color: #EC407A;}
+
+.material-color-pink500 {color: #E91E63;}
+.material-backgroundcolor-pink500 {background-color: #E91E63;}
+.material-bordercolor-pink500 {border-color: #E91E63;}
+
+.material-color-pink600 {color: #D81B60;}
+.material-backgroundcolor-pink600 {background-color: #D81B60;}
+.material-bordercolor-pink600 {border-color: #D81B60;}
+
+.material-color-pink700 {color: #C2185B;}
+.material-backgroundcolor-pink700 {background-color: #C2185B;}
+.material-bordercolor-pink700 {border-color: #C2185B;}
+
+.material-color-pink800 {color: #AD1457;}
+.material-backgroundcolor-pink800 {background-color: #AD1457;}
+.material-bordercolor-pink800 {border-color: #AD1457;}
+
+.material-color-pink900 {color: #880E4F;}
+.material-backgroundcolor-pink900 {background-color: #880E4F;}
+.material-bordercolor-pink900 {border-color: #880E4F;}
+
+.material-color-pinkA100 {color: #FF80AB;}
+.material-backgroundcolor-pinkA100 {background-color: #FF80AB;}
+.material-bordercolor-pinkA100 {border-color: #FF80AB;}
+
+.material-color-pinkA200 {color: #FF4081;}
+.material-backgroundcolor-pinkA200 {background-color: #FF4081;}
+.material-bordercolor-pinkA200 {border-color: #FF4081;}
+
+.material-color-pinkA400 {color: #F50057;}
+.material-backgroundcolor-pinkA400 {background-color: #F50057;}
+.material-bordercolor-pinkA400 {border-color: #F50057;}
+
+.material-color-pinkA700 {color: #C51162;}
+.material-backgroundcolor-pinkA700 {background-color: #C51162;}
+.material-bordercolor-pinkA700 {border-color: #C51162;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Purple
+   Use 50,100,200,300,A100,A200,A400 with #000000
+   Use 400,500,600,700,800,900,A700 with #FFFFFF
+*/
+.material-color-purple50 {color: #F3E5F5;}
+.material-backgroundcolor-purple50 {background-color: #F3E5F5;}
+.material-bordercolor-purple50 {border-color: #F3E5F5;}
+
+.material-color-purple100 {color: #E1BEE7;}
+.material-backgroundcolor-purple100 {background-color: #E1BEE7;}
+.material-bordercolor-purple100 {border-color: #E1BEE7;}
+
+.material-color-purple200 {color: #CE93D8;}
+.material-backgroundcolor-purple200 {background-color: #CE93D8;}
+.material-bordercolor-purple200 {border-color: #CE93D8;}
+
+.material-color-purple300 {color: #BA68C8;}
+.material-backgroundcolor-purple300 {background-color: #BA68C8;}
+.material-bordercolor-purple300 {border-color: #BA68C8;}
+
+.material-color-purple400 {color: #AB47BC;}
+.material-backgroundcolor-purple400 {background-color: #AB47BC;}
+.material-bordercolor-purple400 {border-color: #AB47BC;}
+
+.material-color-purple500 {color: #9C27B0;}
+.material-backgroundcolor-purple500 {background-color: #9C27B0;}
+.material-bordercolor-purple500 {border-color: #9C27B0;}
+
+.material-color-purple600 {color: #8E24AA;}
+.material-backgroundcolor-purple600 {background-color: #8E24AA;}
+.material-bordercolor-purple600 {border-color: #8E24AA;}
+
+.material-color-purple700 {color: #7B1FA2;}
+.material-backgroundcolor-purple700 {background-color: #7B1FA2;}
+.material-bordercolor-purple700 {border-color: #7B1FA2;}
+
+.material-color-purple800 {color: #6A1B9A;}
+.material-backgroundcolor-purple800 {background-color: #6A1B9A;}
+.material-bordercolor-purple800 {border-color: #6A1B9A;}
+
+.material-color-purple900 {color: #4A148C;}
+.material-backgroundcolor-purple900 {background-color: #4A148C;}
+.material-bordercolor-purple900 {border-color: #4A148C;}
+
+.material-color-purpleA100 {color: #EA80FC;}
+.material-backgroundcolor-purpleA100 {background-color: #EA80FC;}
+.material-bordercolor-purpleA100 {border-color: #EA80FC;}
+
+.material-color-purpleA200 {color: #E040FB;}
+.material-backgroundcolor-purpleA200 {background-color: #E040FB;}
+.material-bordercolor-purpleA200 {border-color: #E040FB;}
+
+.material-color-purpleA400 {color: #D500F9;}
+.material-backgroundcolor-purpleA400 {background-color: #D500F9;}
+.material-bordercolor-purpleA400 {border-color: #D500F9;}
+
+.material-color-purpleA700 {color: #AA00FF;}
+.material-backgroundcolor-purpleA700 {background-color: #AA00FF;}
+.material-bordercolor-purpleA700 {border-color: #AA00FF;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Deep Purple
+   Use 50,100,200,300,A100 with #000000
+   Use 400,500,600,700,800,900,A200,A400,A700 with #FFFFFF
+*/
+.material-color-deeppurple50 {color: #EDE7F6;}
+.material-backgroundcolor-deeppurple50 {background-color: #EDE7F6;}
+.material-bordercolor-deeppurple50 {border-color: #EDE7F6;}
+
+.material-color-deeppurple100 {color: #D1C4E9;}
+.material-backgroundcolor-deeppurple100 {background-color: #D1C4E9;}
+.material-bordercolor-deeppurple100 {border-color: #D1C4E9;}
+
+.material-color-deeppurple200 {color: #B39DDB;}
+.material-backgroundcolor-deeppurple200 {background-color: #B39DDB;}
+.material-bordercolor-deeppurple200 {border-color: #B39DDB;}
+
+.material-color-deeppurple300 {color: #9575CD;}
+.material-backgroundcolor-deeppurple300 {background-color: #9575CD;}
+.material-bordercolor-deeppurple300 {border-color: #9575CD;}
+
+.material-color-deeppurple400 {color: #7E57C2;}
+.material-backgroundcolor-deeppurple400 {background-color: #7E57C2;}
+.material-bordercolor-deeppurple400 {border-color: #7E57C2;}
+
+.material-color-deeppurple500 {color: #673AB7;}
+.material-backgroundcolor-deeppurple500 {background-color: #673AB7;}
+.material-bordercolor-deeppurple500 {border-color: #673AB7;}
+
+.material-color-deeppurple600 {color: #5E35B1;}
+.material-backgroundcolor-deeppurple600 {background-color: #5E35B1;}
+.material-bordercolor-deeppurple600 {border-color: #5E35B1;}
+
+.material-color-deeppurple700 {color: #512DA8;}
+.material-backgroundcolor-deeppurple700 {background-color: #512DA8;}
+.material-bordercolor-deeppurple700 {border-color: #512DA8;}
+
+.material-color-deeppurple800 {color: #4527A0;}
+.material-backgroundcolor-deeppurple800 {background-color: #4527A0;}
+.material-bordercolor-deeppurple800 {border-color: #4527A0;}
+
+.material-color-deeppurple900 {color: #311B92;}
+.material-backgroundcolor-deeppurple900 {background-color: #311B92;}
+.material-bordercolor-deeppurple900 {border-color: #311B92;}
+
+.material-color-deeppurpleA100 {color: #B388FF;}
+.material-backgroundcolor-deeppurpleA100 {background-color: #B388FF;}
+.material-bordercolor-deeppurpleA100 {border-color: #B388FF;}
+
+.material-color-deeppurpleA200 {color: #7C4DFF;}
+.material-backgroundcolor-deeppurpleA200 {background-color: #7C4DFF;}
+.material-bordercolor-deeppurpleA200 {border-color: #7C4DFF;}
+
+.material-color-deeppurpleA400 {color: #651FFF;}
+.material-backgroundcolor-deeppurpleA400 {background-color: #651FFF;}
+.material-bordercolor-deeppurpleA400 {border-color: #651FFF;}
+
+.material-color-deeppurpleA700 {color: #6200EA;}
+.material-backgroundcolor-deeppurpleA700 {background-color: #6200EA;}
+.material-bordercolor-deeppurpleA700 {border-color: #6200EA;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Indigo
+   Use 50,100,200,300,A100,A200 with #000000
+   Use 400,500,600,700,800,900,A400,A700 with #FFFFFF
+*/
+.material-color-indigo50 {color: #E8EAF6;}
+.material-backgroundcolor-indigo50 {background-color: #E8EAF6;}
+.material-bordercolor-indigo50 {border-color: #E8EAF6;}
+
+.material-color-indigo100 {color: #C5CAE9;}
+.material-backgroundcolor-indigo100 {background-color: #C5CAE9;}
+.material-bordercolor-indigo100 {border-color: #C5CAE9;}
+
+.material-color-indigo200 {color: #9FA8DA;}
+.material-backgroundcolor-indigo200 {background-color: #9FA8DA;}
+.material-bordercolor-indigo200 {border-color: #9FA8DA;}
+
+.material-color-indigo300 {color: #7986CB;}
+.material-backgroundcolor-indigo300 {background-color: #7986CB;}
+.material-bordercolor-indigo300 {border-color: #7986CB;}
+
+.material-color-indigo400 {color: #5C6BC0;}
+.material-backgroundcolor-indigo400 {background-color: #5C6BC0;}
+.material-bordercolor-indigo400 {border-color: #5C6BC0;}
+
+.material-color-indigo500 {color: #3F51B5;}
+.material-backgroundcolor-indigo500 {background-color: #3F51B5;}
+.material-bordercolor-indigo500 {border-color: #3F51B5;}
+
+.material-color-indigo600 {color: #3949AB;}
+.material-backgroundcolor-indigo600 {background-color: #3949AB;}
+.material-bordercolor-indigo600 {border-color: #3949AB;}
+
+.material-color-indigo700 {color: #303F9F;}
+.material-backgroundcolor-indigo700 {background-color: #303F9F;}
+.material-bordercolor-indigo700 {border-color: #303F9F;}
+
+.material-color-indigo800 {color: #283593;}
+.material-backgroundcolor-indigo800 {background-color: #283593;}
+.material-bordercolor-indigo800 {border-color: #283593;}
+
+.material-color-indigo900 {color: #1A237E;}
+.material-backgroundcolor-indigo900 {background-color: #1A237E;}
+.material-bordercolor-indigo900 {border-color: #1A237E;}
+
+.material-color-indigoA100 {color: #8C9EFF;}
+.material-backgroundcolor-indigoA100 {background-color: #8C9EFF;}
+.material-bordercolor-indigoA100 {border-color: #8C9EFF;}
+
+.material-color-indigoA200 {color: #536DFE;}
+.material-backgroundcolor-indigoA200 {background-color: #536DFE;}
+.material-bordercolor-indigoA200 {border-color: #536DFE;}
+
+.material-color-indigoA400 {color: #3D5AFE;}
+.material-backgroundcolor-indigoA400 {background-color: #3D5AFE;}
+.material-bordercolor-indigoA400 {border-color: #3D5AFE;}
+
+.material-color-indigoA700 {color: #304FFE;}
+.material-backgroundcolor-indigoA700 {background-color: #304FFE;}
+.material-bordercolor-indigoA700 {border-color: #304FFE;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Blue
+   Use 50,100,200,300,400,500,600,A100,A200,A400 with #000000
+   Use 700,800,900,A700 with #FFFFFF
+*/
+.material-color-blue50 {color: #E3F2FD;}
+.material-backgroundcolor-blue50 {background-color: #E3F2FD;}
+.material-bordercolor-blue50 {border-color: #E3F2FD;}
+
+.material-color-blue100 {color: #BBDEFB;}
+.material-backgroundcolor-blue100 {background-color: #BBDEFB;}
+.material-bordercolor-blue100 {border-color: #BBDEFB;}
+
+.material-color-blue200 {color: #90CAF9;}
+.material-backgroundcolor-blue200 {background-color: #90CAF9;}
+.material-bordercolor-blue200 {border-color: #90CAF9;}
+
+.material-color-blue300 {color: #64B5F6;}
+.material-backgroundcolor-blue300 {background-color: #64B5F6;}
+.material-bordercolor-blue300 {border-color: #64B5F6;}
+
+.material-color-blue400 {color: #42A5F5;}
+.material-backgroundcolor-blue400 {background-color: #42A5F5;}
+.material-bordercolor-blue400 {border-color: #42A5F5;}
+
+.material-color-blue500 {color: #2196F3;}
+.material-backgroundcolor-blue500 {background-color: #2196F3;}
+.material-bordercolor-blue500 {border-color: #2196F3;}
+
+.material-color-blue600 {color: #1E88E5;}
+.material-backgroundcolor-blue600 {background-color: #1E88E5;}
+.material-bordercolor-blue600 {border-color: #1E88E5;}
+
+.material-color-blue700 {color: #1976D2;}
+.material-backgroundcolor-blue700 {background-color: #1976D2;}
+.material-bordercolor-blue700 {border-color: #1976D2;}
+
+.material-color-blue800 {color: #1565C0;}
+.material-backgroundcolor-blue800 {background-color: #1565C0;}
+.material-bordercolor-blue800 {border-color: #1565C0;}
+
+.material-color-blue900 {color: #0D47A1;}
+.material-backgroundcolor-blue900 {background-color: #0D47A1;}
+.material-bordercolor-blue900 {border-color: #0D47A1;}
+
+.material-color-blueA100 {color: #82B1FF;}
+.material-backgroundcolor-blueA100 {background-color: #82B1FF;}
+.material-bordercolor-blueA100 {border-color: #82B1FF;}
+
+.material-color-blueA200 {color: #448AFF;}
+.material-backgroundcolor-blueA200 {background-color: #448AFF;}
+.material-bordercolor-blueA200 {border-color: #448AFF;}
+
+.material-color-blueA400 {color: #2979FF;}
+.material-backgroundcolor-blueA400 {background-color: #2979FF;}
+.material-bordercolor-blueA400 {border-color: #2979FF;}
+
+.material-color-blueA700 {color: #2962FF;}
+.material-backgroundcolor-blueA700 {background-color: #2962FF;}
+.material-bordercolor-blueA700 {border-color: #2962FF;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Light Blue
+   Use 50,100,200,300,400,500,600,700,A100,A200,A400,A700 with #000000
+   Use 800,900 with #FFFFFF
+*/
+.material-color-lightblue50 {color: #E1F5FE;}
+.material-backgroundcolor-lightblue50 {background-color: #E1F5FE;}
+.material-bordercolor-lightblue50 {border-color: #E1F5FE;}
+
+.material-color-lightblue100 {color: #B3E5FC;}
+.material-backgroundcolor-lightblue100 {background-color: #B3E5FC;}
+.material-bordercolor-lightblue100 {border-color: #B3E5FC;}
+
+.material-color-lightblue200 {color: #81D4FA;}
+.material-backgroundcolor-lightblue200 {background-color: #81D4FA;}
+.material-bordercolor-lightblue200 {border-color: #81D4FA;}
+
+.material-color-lightblue300 {color: #4FC3F7;}
+.material-backgroundcolor-lightblue300 {background-color: #4FC3F7;}
+.material-bordercolor-lightblue300 {border-color: #4FC3F7;}
+
+.material-color-lightblue400 {color: #29B6F6;}
+.material-backgroundcolor-lightblue400 {background-color: #29B6F6;}
+.material-bordercolor-lightblue400 {border-color: #29B6F6;}
+
+.material-color-lightblue500 {color: #03A9F4;}
+.material-backgroundcolor-lightblue500 {background-color: #03A9F4;}
+.material-bordercolor-lightblue500 {border-color: #03A9F4;}
+
+.material-color-lightblue600 {color: #039BE5;}
+.material-backgroundcolor-lightblue600 {background-color: #039BE5;}
+.material-bordercolor-lightblue600 {border-color: #039BE5;}
+
+.material-color-lightblue700 {color: #0288D1;}
+.material-backgroundcolor-lightblue700 {background-color: #0288D1;}
+.material-bordercolor-lightblue700 {border-color: #0288D1;}
+
+.material-color-lightblue800 {color: #0277BD;}
+.material-backgroundcolor-lightblue800 {background-color: #0277BD;}
+.material-bordercolor-lightblue800 {border-color: #0277BD;}
+
+.material-color-lightblue900 {color: #01579B;}
+.material-backgroundcolor-lightblue900 {background-color: #01579B;}
+.material-bordercolor-lightblue900 {border-color: #01579B;}
+
+.material-color-lightblueA100 {color: #80D8FF;}
+.material-backgroundcolor-lightblueA100 {background-color: #80D8FF;}
+.material-bordercolor-lightblueA100 {border-color: #80D8FF;}
+
+.material-color-lightblueA200 {color: #40C4FF;}
+.material-backgroundcolor-lightblueA200 {background-color: #40C4FF;}
+.material-bordercolor-lightblueA200 {border-color: #40C4FF;}
+
+.material-color-lightblueA400 {color: #00B0FF;}
+.material-backgroundcolor-lightblueA400 {background-color: #00B0FF;}
+.material-bordercolor-lightblueA400 {border-color: #00B0FF;}
+
+.material-color-lightblueA700 {color: #0091EA;}
+.material-backgroundcolor-lightblueA700 {background-color: #0091EA;}
+.material-bordercolor-lightblueA700 {border-color: #0091EA;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Cyan
+   Use 50,100,200,300,400,500,600,700,800,A100,A200,A400,A700 with #000000
+   Use 900 with #FFFFFF
+*/
+.material-color-cyan50 {color: #E0F7FA;}
+.material-backgroundcolor-cyan50 {background-color: #E0F7FA;}
+.material-bordercolor-cyan50 {border-color: #E0F7FA;}
+
+.material-color-cyan100 {color: #B2EBF2;}
+.material-backgroundcolor-cyan100 {background-color: #B2EBF2;}
+.material-bordercolor-cyan100 {border-color: #B2EBF2;}
+
+.material-color-cyan200 {color: #80DEEA;}
+.material-backgroundcolor-cyan200 {background-color: #80DEEA;}
+.material-bordercolor-cyan200 {border-color: #80DEEA;}
+
+.material-color-cyan300 {color: #4DD0E1;}
+.material-backgroundcolor-cyan300 {background-color: #4DD0E1;}
+.material-bordercolor-cyan300 {border-color: #4DD0E1;}
+
+.material-color-cyan400 {color: #26C6DA;}
+.material-backgroundcolor-cyan400 {background-color: #26C6DA;}
+.material-bordercolor-cyan400 {border-color: #26C6DA;}
+
+.material-color-cyan500 {color: #00BCD4;}
+.material-backgroundcolor-cyan500 {background-color: #00BCD4;}
+.material-bordercolor-cyan500 {border-color: #00BCD4;}
+
+.material-color-cyan600 {color: #00ACC1;}
+.material-backgroundcolor-cyan600 {background-color: #00ACC1;}
+.material-bordercolor-cyan600 {border-color: #00ACC1;}
+
+.material-color-cyan700 {color: #0097A7;}
+.material-backgroundcolor-cyan700 {background-color: #0097A7;}
+.material-bordercolor-cyan700 {border-color: #0097A7;}
+
+.material-color-cyan800 {color: #00838F;}
+.material-backgroundcolor-cyan800 {background-color: #00838F;}
+.material-bordercolor-cyan800 {border-color: #00838F;}
+
+.material-color-cyan900 {color: #006064;}
+.material-backgroundcolor-cyan900 {background-color: #006064;}
+.material-bordercolor-cyan900 {border-color: #006064;}
+
+.material-color-cyanA100 {color: #84FFFF;}
+.material-backgroundcolor-cyanA100 {background-color: #84FFFF;}
+.material-bordercolor-cyanA100 {border-color: #84FFFF;}
+
+.material-color-cyanA200 {color: #18FFFF;}
+.material-backgroundcolor-cyanA200 {background-color: #18FFFF;}
+.material-bordercolor-cyanA200 {border-color: #18FFFF;}
+
+.material-color-cyanA400 {color: #00E5FF;}
+.material-backgroundcolor-cyanA400 {background-color: #00E5FF;}
+.material-bordercolor-cyanA400 {border-color: #00E5FF;}
+
+.material-color-cyanA700 {color: #00B8D4;}
+.material-backgroundcolor-cyanA700 {background-color: #00B8D4;}
+.material-bordercolor-cyanA700 {border-color: #00B8D4;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Teal
+   Use 50,100,200,300,400,500,600,A100,A200,A400,A700 with #000000
+   Use 700,800,900 with #FFFFFF
+*/
+.material-color-teal50 {color: #E0F2F1;}
+.material-backgroundcolor-teal50 {background-color: #E0F2F1;}
+.material-bordercolor-teal50 {border-color: #E0F2F1;}
+
+.material-color-teal100 {color: #B2DFDB;}
+.material-backgroundcolor-teal100 {background-color: #B2DFDB;}
+.material-bordercolor-teal100 {border-color: #B2DFDB;}
+
+.material-color-teal200 {color: #80CBC4;}
+.material-backgroundcolor-teal200 {background-color: #80CBC4;}
+.material-bordercolor-teal200 {border-color: #80CBC4;}
+
+.material-color-teal300 {color: #4DB6AC;}
+.material-backgroundcolor-teal300 {background-color: #4DB6AC;}
+.material-bordercolor-teal300 {border-color: #4DB6AC;}
+
+.material-color-teal400 {color: #26A69A;}
+.material-backgroundcolor-teal400 {background-color: #26A69A;}
+.material-bordercolor-teal400 {border-color: #26A69A;}
+
+.material-color-teal500 {color: #009688;}
+.material-backgroundcolor-teal500 {background-color: #009688;}
+.material-bordercolor-teal500 {border-color: #009688;}
+
+.material-color-teal600 {color: #00897B;}
+.material-backgroundcolor-teal600 {background-color: #00897B;}
+.material-bordercolor-teal600 {border-color: #00897B;}
+
+.material-color-teal700 {color: #00796B;}
+.material-backgroundcolor-teal700 {background-color: #00796B;}
+.material-bordercolor-teal700 {border-color: #00796B;}
+
+.material-color-teal800 {color: #00695C;}
+.material-backgroundcolor-teal800 {background-color: #00695C;}
+.material-bordercolor-teal800 {border-color: #00695C;}
+
+.material-color-teal900 {color: #004D40;}
+.material-backgroundcolor-teal900 {background-color: #004D40;}
+.material-bordercolor-teal900 {border-color: #004D40;}
+
+.material-color-tealA100 {color: #A7FFEB;}
+.material-backgroundcolor-tealA100 {background-color: #A7FFEB;}
+.material-bordercolor-tealA100 {border-color: #A7FFEB;}
+
+.material-color-tealA200 {color: #64FFDA;}
+.material-backgroundcolor-tealA200 {background-color: #64FFDA;}
+.material-bordercolor-tealA200 {border-color: #64FFDA;}
+
+.material-color-tealA400 {color: #1DE9B6;}
+.material-backgroundcolor-tealA400 {background-color: #1DE9B6;}
+.material-bordercolor-tealA400 {border-color: #1DE9B6;}
+
+.material-color-tealA700 {color: #00BFA5;}
+.material-backgroundcolor-tealA700 {background-color: #00BFA5;}
+.material-bordercolor-tealA700 {border-color: #00BFA5;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Green
+   Use 50,100,200,300,400,500,600,700,A100,A200,A400,A700 with #000000
+   Use 800,900 with #FFFFFF
+*/
+.material-color-green50 {color: #E8F5E9;}
+.material-backgroundcolor-green50 {background-color: #E8F5E9;}
+.material-bordercolor-green50 {border-color: #E8F5E9;}
+
+.material-color-green100 {color: #C8E6C9;}
+.material-backgroundcolor-green100 {background-color: #C8E6C9;}
+.material-bordercolor-green100 {border-color: #C8E6C9;}
+
+.material-color-green200 {color: #A5D6A7;}
+.material-backgroundcolor-green200 {background-color: #A5D6A7;}
+.material-bordercolor-green200 {border-color: #A5D6A7;}
+
+.material-color-green300 {color: #81C784;}
+.material-backgroundcolor-green300 {background-color: #81C784;}
+.material-bordercolor-green300 {border-color: #81C784;}
+
+.material-color-green400 {color: #66BB6A;}
+.material-backgroundcolor-green400 {background-color: #66BB6A;}
+.material-bordercolor-green400 {border-color: #66BB6A;}
+
+.material-color-green500 {color: #4CAF50;}
+.material-backgroundcolor-green500 {background-color: #4CAF50;}
+.material-bordercolor-green500 {border-color: #4CAF50;}
+
+.material-color-green600 {color: #43A047;}
+.material-backgroundcolor-green600 {background-color: #43A047;}
+.material-bordercolor-green600 {border-color: #43A047;}
+
+.material-color-green700 {color: #388E3C;}
+.material-backgroundcolor-green700 {background-color: #388E3C;}
+.material-bordercolor-green700 {border-color: #388E3C;}
+
+.material-color-green800 {color: #2E7D32;}
+.material-backgroundcolor-green800 {background-color: #2E7D32;}
+.material-bordercolor-green800 {border-color: #2E7D32;}
+
+.material-color-green900 {color: #1B5E20;}
+.material-backgroundcolor-green900 {background-color: #1B5E20;}
+.material-bordercolor-green900 {border-color: #1B5E20;}
+
+.material-color-greenA100 {color: #B9F6CA;}
+.material-backgroundcolor-greenA100 {background-color: #B9F6CA;}
+.material-bordercolor-greenA100 {border-color: #B9F6CA;}
+
+.material-color-greenA200 {color: #69F0AE;}
+.material-backgroundcolor-greenA200 {background-color: #69F0AE;}
+.material-bordercolor-greenA200 {border-color: #69F0AE;}
+
+.material-color-greenA400 {color: #00E676;}
+.material-backgroundcolor-greenA400 {background-color: #00E676;}
+.material-bordercolor-greenA400 {border-color: #00E676;}
+
+.material-color-greenA700 {color: #00C853;}
+.material-backgroundcolor-greenA700 {background-color: #00C853;}
+.material-bordercolor-greenA700 {border-color: #00C853;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Light Green
+   Use 50,100,200,300,400,500,600,700,A100,A200,A400,A700 with #000000
+   Use 800,900 with #FFFFFF
+*/
+.material-color-lightgreen50 {color: #F1F8E9;}
+.material-backgroundcolor-lightgreen50 {background-color: #F1F8E9;}
+.material-bordercolor-lightgreen50 {border-color: #F1F8E9;}
+
+.material-color-lightgreen100 {color: #DCEDC8;}
+.material-backgroundcolor-lightgreen100 {background-color: #DCEDC8;}
+.material-bordercolor-lightgreen100 {border-color: #DCEDC8;}
+
+.material-color-lightgreen200 {color: #C5E1A5;}
+.material-backgroundcolor-lightgreen200 {background-color: #C5E1A5;}
+.material-bordercolor-lightgreen200 {border-color: #C5E1A5;}
+
+.material-color-lightgreen300 {color: #AED581;}
+.material-backgroundcolor-lightgreen300 {background-color: #AED581;}
+.material-bordercolor-lightgreen300 {border-color: #AED581;}
+
+.material-color-lightgreen400 {color: #9CCC65;}
+.material-backgroundcolor-lightgreen400 {background-color: #9CCC65;}
+.material-bordercolor-lightgreen400 {border-color: #9CCC65;}
+
+.material-color-lightgreen500 {color: #8BC34A;}
+.material-backgroundcolor-lightgreen500 {background-color: #8BC34A;}
+.material-bordercolor-lightgreen500 {border-color: #8BC34A;}
+
+.material-color-lightgreen600 {color: #7CB342;}
+.material-backgroundcolor-lightgreen600 {background-color: #7CB342;}
+.material-bordercolor-lightgreen600 {border-color: #7CB342;}
+
+.material-color-lightgreen700 {color: #689F38;}
+.material-backgroundcolor-lightgreen700 {background-color: #689F38;}
+.material-bordercolor-lightgreen700 {border-color: #689F38;}
+
+.material-color-lightgreen800 {color: #558B2F;}
+.material-backgroundcolor-lightgreen800 {background-color: #558B2F;}
+.material-bordercolor-lightgreen800 {border-color: #558B2F;}
+
+.material-color-lightgreen900 {color: #33691E;}
+.material-backgroundcolor-lightgreen900 {background-color: #33691E;}
+.material-bordercolor-lightgreen900 {border-color: #33691E;}
+
+.material-color-lightgreenA100 {color: #CCFF90;}
+.material-backgroundcolor-lightgreenA100 {background-color: #CCFF90;}
+.material-bordercolor-lightgreenA100 {border-color: #CCFF90;}
+
+.material-color-lightgreenA200 {color: #B2FF59;}
+.material-backgroundcolor-lightgreenA200 {background-color: #B2FF59;}
+.material-bordercolor-lightgreenA200 {border-color: #B2FF59;}
+
+.material-color-lightgreenA400 {color: #76FF03;}
+.material-backgroundcolor-lightgreenA400 {background-color: #76FF03;}
+.material-bordercolor-lightgreenA400 {border-color: #76FF03;}
+
+.material-color-lightgreenA700 {color: #64DD17;}
+.material-backgroundcolor-lightgreenA700 {background-color: #64DD17;}
+.material-bordercolor-lightgreenA700 {border-color: #64DD17;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Lime
+   Use 50,100,200,300,400,500,600,700,800,900,A100,A200,A400,A700 with #000000
+   None with #FFFFFF
+*/
+.material-color-lime50 {color: #F9FBE7;}
+.material-backgroundcolor-lime50 {background-color: #F9FBE7;}
+.material-bordercolor-lime50 {border-color: #F9FBE7;}
+
+.material-color-lime100 {color: #F0F4C3;}
+.material-backgroundcolor-lime100 {background-color: #F0F4C3;}
+.material-bordercolor-lime100 {border-color: #F0F4C3;}
+
+.material-color-lime200 {color: #E6EE9C;}
+.material-backgroundcolor-lime200 {background-color: #E6EE9C;}
+.material-bordercolor-lime200 {border-color: #E6EE9C;}
+
+.material-color-lime300 {color: #DCE775;}
+.material-backgroundcolor-lime300 {background-color: #DCE775;}
+.material-bordercolor-lime300 {border-color: #DCE775;}
+
+.material-color-lime400 {color: #D4E157;}
+.material-backgroundcolor-lime400 {background-color: #D4E157;}
+.material-bordercolor-lime400 {border-color: #D4E157;}
+
+.material-color-lime500 {color: #CDDC39;}
+.material-backgroundcolor-lime500 {background-color: #CDDC39;}
+.material-bordercolor-lime500 {border-color: #CDDC39;}
+
+.material-color-lime600 {color: #C0CA33;}
+.material-backgroundcolor-lime600 {background-color: #C0CA33;}
+.material-bordercolor-lime600 {border-color: #C0CA33;}
+
+.material-color-lime700 {color: #AFB42B;}
+.material-backgroundcolor-lime700 {background-color: #AFB42B;}
+.material-bordercolor-lime700 {border-color: #AFB42B;}
+
+.material-color-lime800 {color: #9E9D24;}
+.material-backgroundcolor-lime800 {background-color: #9E9D24;}
+.material-bordercolor-lime800 {border-color: #9E9D24;}
+
+.material-color-lime900 {color: #827717;}
+.material-backgroundcolor-lime900 {background-color: #827717;}
+.material-bordercolor-lime900 {border-color: #827717;}
+
+.material-color-limeA100 {color: #F4FF81;}
+.material-backgroundcolor-limeA100 {background-color: #F4FF81;}
+.material-bordercolor-limeA100 {border-color: #F4FF81;}
+
+.material-color-limeA200 {color: #EEFF41;}
+.material-backgroundcolor-limeA200 {background-color: #EEFF41;}
+.material-bordercolor-limeA200 {border-color: #EEFF41;}
+
+.material-color-limeA400 {color: #C6FF00;}
+.material-backgroundcolor-limeA400 {background-color: #C6FF00;}
+.material-bordercolor-limeA400 {border-color: #C6FF00;}
+
+.material-color-limeA700 {color: #AEEA00;}
+.material-backgroundcolor-limeA700 {background-color: #AEEA00;}
+.material-bordercolor-limeA700 {border-color: #AEEA00;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Yellow
+   Use 50,100,200,300,400,500,600,700,800,900,A100,A200,A400,A700 with #000000
+   None with #FFFFFF
+*/
+.material-color-yellow50 {color: #FFFDE7;}
+.material-backgroundcolor-yellow50 {background-color: #FFFDE7;}
+.material-bordercolor-yellow50 {border-color: #FFFDE7;}
+
+.material-color-yellow100 {color: #FFF9C4;}
+.material-backgroundcolor-yellow100 {background-color: #FFF9C4;}
+.material-bordercolor-yellow100 {border-color: #FFF9C4;}
+
+.material-color-yellow200 {color: #FFF59D;}
+.material-backgroundcolor-yellow200 {background-color: #FFF59D;}
+.material-bordercolor-yellow200 {border-color: #FFF59D;}
+
+.material-color-yellow300 {color: #FFF176;}
+.material-backgroundcolor-yellow300 {background-color: #FFF176;}
+.material-bordercolor-yellow300 {border-color: #FFF176;}
+
+.material-color-yellow400 {color: #FFEE58;}
+.material-backgroundcolor-yellow400 {background-color: #FFEE58;}
+.material-bordercolor-yellow400 {border-color: #FFEE58;}
+
+.material-color-yellow500 {color: #FFEB3B;}
+.material-backgroundcolor-yellow500 {background-color: #FFEB3B;}
+.material-bordercolor-yellow500 {border-color: #FFEB3B;}
+
+.material-color-yellow600 {color: #FDD835;}
+.material-backgroundcolor-yellow600 {background-color: #FDD835;}
+.material-bordercolor-yellow600 {border-color: #FDD835;}
+
+.material-color-yellow700 {color: #FBC02D;}
+.material-backgroundcolor-yellow700 {background-color: #FBC02D;}
+.material-bordercolor-yellow700 {border-color: #FBC02D;}
+
+.material-color-yellow800 {color: #F9A825;}
+.material-backgroundcolor-yellow800 {background-color: #F9A825;}
+.material-bordercolor-yellow800 {border-color: #F9A825;}
+
+.material-color-yellow900 {color: #F57F17;}
+.material-backgroundcolor-yellow900 {background-color: #F57F17;}
+.material-bordercolor-yellow900 {border-color: #F57F17;}
+
+.material-color-yellowA100 {color: #FFFF8D;}
+.material-backgroundcolor-yellowA100 {background-color: #FFFF8D;}
+.material-bordercolor-yellowA100 {border-color: #FFFF8D;}
+
+.material-color-yellowA200 {color: #FFFF00;}
+.material-backgroundcolor-yellowA200 {background-color: #FFFF00;}
+.material-bordercolor-yellowA200 {border-color: #FFFF00;}
+
+.material-color-yellowA400 {color: #FFEA00;}
+.material-backgroundcolor-yellowA400 {background-color: #FFEA00;}
+.material-bordercolor-yellowA400 {border-color: #FFEA00;}
+
+.material-color-yellowA700 {color: #FFD600;}
+.material-backgroundcolor-yellowA700 {background-color: #FFD600;}
+.material-bordercolor-yellowA700 {border-color: #FFD600;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Amber
+   Use 50,100,200,300,400,500,600,700,800,900,A100,A200,A400,A700 with #000000
+   None with #FFFFFF
+*/
+.material-color-amber50 {color: #FFF8E1;}
+.material-backgroundcolor-amber50 {background-color: #FFF8E1;}
+.material-bordercolor-amber50 {border-color: #FFF8E1;}
+
+.material-color-amber100 {color: #FFECB3;}
+.material-backgroundcolor-amber100 {background-color: #FFECB3;}
+.material-bordercolor-amber100 {border-color: #FFECB3;}
+
+.material-color-amber200 {color: #FFE082;}
+.material-backgroundcolor-amber200 {background-color: #FFE082;}
+.material-bordercolor-amber200 {border-color: #FFE082;}
+
+.material-color-amber300 {color: #FFD54F;}
+.material-backgroundcolor-amber300 {background-color: #FFD54F;}
+.material-bordercolor-amber300 {border-color: #FFD54F;}
+
+.material-color-amber400 {color: #FFCA28;}
+.material-backgroundcolor-amber400 {background-color: #FFCA28;}
+.material-bordercolor-amber400 {border-color: #FFCA28;}
+
+.material-color-amber500 {color: #FFC107;}
+.material-backgroundcolor-amber500 {background-color: #FFC107;}
+.material-bordercolor-amber500 {border-color: #FFC107;}
+
+.material-color-amber600 {color: #FFB300;}
+.material-backgroundcolor-amber600 {background-color: #FFB300;}
+.material-bordercolor-amber600 {border-color: #FFB300;}
+
+.material-color-amber700 {color: #FFA000;}
+.material-backgroundcolor-amber700 {background-color: #FFA000;}
+.material-bordercolor-amber700 {border-color: #FFA000;}
+
+.material-color-amber800 {color: #FF8F00;}
+.material-backgroundcolor-amber800 {background-color: #FF8F00;}
+.material-bordercolor-amber800 {border-color: #FF8F00;}
+
+.material-color-amber900 {color: #FF6F00;}
+.material-backgroundcolor-amber900 {background-color: #FF6F00;}
+.material-bordercolor-amber900 {border-color: #FF6F00;}
+
+.material-color-amberA100 {color: #FFE57F;}
+.material-backgroundcolor-amberA100 {background-color: #FFE57F;}
+.material-bordercolor-amberA100 {border-color: #FFE57F;}
+
+.material-color-amberA200 {color: #FFD740;}
+.material-backgroundcolor-amberA200 {background-color: #FFD740;}
+.material-bordercolor-amberA200 {border-color: #FFD740;}
+
+.material-color-amberA400 {color: #FFC400;}
+.material-backgroundcolor-amberA400 {background-color: #FFC400;}
+.material-bordercolor-amberA400 {border-color: #FFC400;}
+
+.material-color-amberA700 {color: #FFAB00;}
+.material-backgroundcolor-amberA700 {background-color: #FFAB00;}
+.material-bordercolor-amberA700 {border-color: #FFAB00;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Orange
+   Use 50,100,200,300,400,500,600,700,800,900,A100,A200,A400,A700 with #000000
+   None with #FFFFFF
+*/
+.material-color-orange50 {color: #FFF3E0;}
+.material-backgroundcolor-orange50 {background-color: #FFF3E0;}
+.material-bordercolor-orange50 {border-color: #FFF3E0;}
+
+.material-color-orange100 {color: #FFE0B2;}
+.material-backgroundcolor-orange100 {background-color: #FFE0B2;}
+.material-bordercolor-orange100 {border-color: #FFE0B2;}
+
+.material-color-orange200 {color: #FFCC80;}
+.material-backgroundcolor-orange200 {background-color: #FFCC80;}
+.material-bordercolor-orange200 {border-color: #FFCC80;}
+
+.material-color-orange300 {color: #FFB74D;}
+.material-backgroundcolor-orange300 {background-color: #FFB74D;}
+.material-bordercolor-orange300 {border-color: #FFB74D;}
+
+.material-color-orange400 {color: #FFA726;}
+.material-backgroundcolor-orange400 {background-color: #FFA726;}
+.material-bordercolor-orange400 {border-color: #FFA726;}
+
+.material-color-orange500 {color: #FF9800;}
+.material-backgroundcolor-orange500 {background-color: #FF9800;}
+.material-bordercolor-orange500 {border-color: #FF9800;}
+
+.material-color-orange600 {color: #FB8C00;}
+.material-backgroundcolor-orange600 {background-color: #FB8C00;}
+.material-bordercolor-orange600 {border-color: #FB8C00;}
+
+.material-color-orange700 {color: #F57C00;}
+.material-backgroundcolor-orange700 {background-color: #F57C00;}
+.material-bordercolor-orange700 {border-color: #F57C00;}
+
+.material-color-orange800 {color: #EF6C00;}
+.material-backgroundcolor-orange800 {background-color: #EF6C00;}
+.material-bordercolor-orange800 {border-color: #EF6C00;}
+
+.material-color-orange900 {color: #E65100;}
+.material-backgroundcolor-orange900 {background-color: #E65100;}
+.material-bordercolor-orange900 {border-color: #E65100;}
+
+.material-color-orangeA100 {color: #FFD180;}
+.material-backgroundcolor-orangeA100 {background-color: #FFD180;}
+.material-bordercolor-orangeA100 {border-color: #FFD180;}
+
+.material-color-orangeA200 {color: #FFAB40;}
+.material-backgroundcolor-orangeA200 {background-color: #FFAB40;}
+.material-bordercolor-orangeA200 {border-color: #FFAB40;}
+
+.material-color-orangeA400 {color: #FF9100;}
+.material-backgroundcolor-orangeA400 {background-color: #FF9100;}
+.material-bordercolor-orangeA400 {border-color: #FF9100;}
+
+.material-color-orangeA700 {color: #FF6D00;}
+.material-backgroundcolor-orangeA700 {background-color: #FF6D00;}
+.material-bordercolor-orangeA700 {border-color: #FF6D00;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Deep Orange
+   Use 50,100,200,300,400,500,600,700,800,A100,A200,A400 with #000000
+   Use 900,A700 with #FFFFFF
+*/
+.material-color-deeporange50 {color: #FBE9E7;}
+.material-backgroundcolor-deeporange50 {background-color: #FBE9E7;}
+.material-bordercolor-deeporange50 {border-color: #FBE9E7;}
+
+.material-color-deeporange100 {color: #FFCCBC;}
+.material-backgroundcolor-deeporange100 {background-color: #FFCCBC;}
+.material-bordercolor-deeporange100 {border-color: #FFCCBC;}
+
+.material-color-deeporange200 {color: #FFAB91;}
+.material-backgroundcolor-deeporange200 {background-color: #FFAB91;}
+.material-bordercolor-deeporange200 {border-color: #FFAB91;}
+
+.material-color-deeporange300 {color: #FF8A65;}
+.material-backgroundcolor-deeporange300 {background-color: #FF8A65;}
+.material-bordercolor-deeporange300 {border-color: #FF8A65;}
+
+.material-color-deeporange400 {color: #FF7043;}
+.material-backgroundcolor-deeporange400 {background-color: #FF7043;}
+.material-bordercolor-deeporange400 {border-color: #FF7043;}
+
+.material-color-deeporange500 {color: #FF5722;}
+.material-backgroundcolor-deeporange500 {background-color: #FF5722;}
+.material-bordercolor-deeporange500 {border-color: #FF5722;}
+
+.material-color-deeporange600 {color: #F4511E;}
+.material-backgroundcolor-deeporange600 {background-color: #F4511E;}
+.material-bordercolor-deeporange600 {border-color: #F4511E;}
+
+.material-color-deeporange700 {color: #E64A19;}
+.material-backgroundcolor-deeporange700 {background-color: #E64A19;}
+.material-bordercolor-deeporange700 {border-color: #E64A19;}
+
+.material-color-deeporange800 {color: #D84315;}
+.material-backgroundcolor-deeporange800 {background-color: #D84315;}
+.material-bordercolor-deeporange800 {border-color: #D84315;}
+
+.material-color-deeporange900 {color: #BF360C;}
+.material-backgroundcolor-deeporange900 {background-color: #BF360C;}
+.material-bordercolor-deeporange900 {border-color: #BF360C;}
+
+.material-color-deeporangeA100 {color: #FF9E80;}
+.material-backgroundcolor-deeporangeA100 {background-color: #FF9E80;}
+.material-bordercolor-deeporangeA100 {border-color: #FF9E80;}
+
+.material-color-deeporangeA200 {color: #FF6E40;}
+.material-backgroundcolor-deeporangeA200 {background-color: #FF6E40;}
+.material-bordercolor-deeporangeA200 {border-color: #FF6E40;}
+
+.material-color-deeporangeA400 {color: #FF3D00;}
+.material-backgroundcolor-deeporangeA400 {background-color: #FF3D00;}
+.material-bordercolor-deeporangeA400 {border-color: #FF3D00;}
+
+.material-color-deeporangeA700 {color: #DD2C00;}
+.material-backgroundcolor-deeporangeA700 {background-color: #DD2C00;}
+.material-bordercolor-deeporangeA700 {border-color: #DD2C00;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Brown
+   Use 50,100,200,300 with #000000
+   Use 400,500,600,700,800,900 with #FFFFFF
+*/
+.material-color-brown50 {color: #EFEBE9;}
+.material-backgroundcolor-brown50 {background-color: #EFEBE9;}
+.material-bordercolor-brown50 {border-color: #EFEBE9;}
+
+.material-color-brown100 {color: #D7CCC8;}
+.material-backgroundcolor-brown100 {background-color: #D7CCC8;}
+.material-bordercolor-brown100 {border-color: #D7CCC8;}
+
+.material-color-brown200 {color: #BCAAA4;}
+.material-backgroundcolor-brown200 {background-color: #BCAAA4;}
+.material-bordercolor-brown200 {border-color: #BCAAA4;}
+
+.material-color-brown300 {color: #A1887F;}
+.material-backgroundcolor-brown300 {background-color: #A1887F;}
+.material-bordercolor-brown300 {border-color: #A1887F;}
+
+.material-color-brown400 {color: #8D6E63;}
+.material-backgroundcolor-brown400 {background-color: #8D6E63;}
+.material-bordercolor-brown400 {border-color: #8D6E63;}
+
+.material-color-brown500 {color: #795548;}
+.material-backgroundcolor-brown500 {background-color: #795548;}
+.material-bordercolor-brown500 {border-color: #795548;}
+
+.material-color-brown600 {color: #6D4C41;}
+.material-backgroundcolor-brown600 {background-color: #6D4C41;}
+.material-bordercolor-brown600 {border-color: #6D4C41;}
+
+.material-color-brown700 {color: #5D4037;}
+.material-backgroundcolor-brown700 {background-color: #5D4037;}
+.material-bordercolor-brown700 {border-color: #5D4037;}
+
+.material-color-brown800 {color: #4E342E;}
+.material-backgroundcolor-brown800 {background-color: #4E342E;}
+.material-bordercolor-brown800 {border-color: #4E342E;}
+
+.material-color-brown900 {color: #3E2723;}
+.material-backgroundcolor-brown900 {background-color: #3E2723;}
+.material-bordercolor-brown900 {border-color: #3E2723;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Gray
+   Use 50,100,200,300,400,500 with #000000
+   Use 600,700,800,900 with #FFFFFF
+*/
+.material-color-gray50 {color: #FAFAFA;}
+.material-backgroundcolor-gray50 {background-color: #FAFAFA;}
+.material-bordercolor-gray50 {border-color: #FAFAFA;}
+
+.material-color-gray100 {color: #F5F5F5;}
+.material-backgroundcolor-gray100 {background-color: #F5F5F5;}
+.material-bordercolor-gray100 {border-color: #F5F5F5;}
+
+.material-color-gray200 {color: #EEEEEE;}
+.material-backgroundcolor-gray200 {background-color: #EEEEEE;}
+.material-bordercolor-gray200 {border-color: #EEEEEE;}
+
+.material-color-gray300 {color: #E0E0E0;}
+.material-backgroundcolor-gray300 {background-color: #E0E0E0;}
+.material-bordercolor-gray300 {border-color: #E0E0E0;}
+
+.material-color-gray400 {color: #BDBDBD;}
+.material-backgroundcolor-gray400 {background-color: #BDBDBD;}
+.material-bordercolor-gray400 {border-color: #BDBDBD;}
+
+.material-color-gray500 {color: #9E9E9E;}
+.material-backgroundcolor-gray500 {background-color: #9E9E9E;}
+.material-bordercolor-gray500 {border-color: #9E9E9E;}
+
+.material-color-gray600 {color: #757575;}
+.material-backgroundcolor-gray600 {background-color: #757575;}
+.material-bordercolor-gray600 {border-color: #757575;}
+
+.material-color-gray700 {color: #616161;}
+.material-backgroundcolor-gray700 {background-color: #616161;}
+.material-bordercolor-gray700 {border-color: #616161;}
+
+.material-color-gray800 {color: #424242;}
+.material-backgroundcolor-gray800 {background-color: #424242;}
+.material-bordercolor-gray800 {border-color: #424242;}
+
+.material-color-gray900 {color: #212121;}
+.material-backgroundcolor-gray900 {background-color: #212121;}
+.material-bordercolor-gray900 {border-color: #212121;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Blue Gray
+   Use 50,100,200,300,400,500 with #000000
+   Use 600,700,800,900 with #FFFFFF
+*/
+.material-color-bluegray50 {color: #ECEFF1;}
+.material-backgroundcolor-bluegray50 {background-color: #ECEFF1;}
+.material-bordercolor-bluegray50 {border-color: #ECEFF1;}
+
+.material-color-bluegray100 {color: #CFD8DC;}
+.material-backgroundcolor-bluegray100 {background-color: #CFD8DC;}
+.material-bordercolor-bluegray100 {border-color: #CFD8DC;}
+
+.material-color-bluegray200 {color: #B0BEC5;}
+.material-backgroundcolor-bluegray200 {background-color: #B0BEC5;}
+.material-bordercolor-bluegray200 {border-color: #B0BEC5;}
+
+.material-color-bluegray300 {color: #90A4AE;}
+.material-backgroundcolor-bluegray300 {background-color: #90A4AE;}
+.material-bordercolor-bluegray300 {border-color: #90A4AE;}
+
+.material-color-bluegray400 {color: #78909C;}
+.material-backgroundcolor-bluegray400 {background-color: #78909C;}
+.material-bordercolor-bluegray400 {border-color: #78909C;}
+
+.material-color-bluegray500 {color: #607D8B;}
+.material-backgroundcolor-bluegray500 {background-color: #607D8B;}
+.material-bordercolor-bluegray500 {border-color: #607D8B;}
+
+.material-color-bluegray600 {color: #546E7A;}
+.material-backgroundcolor-bluegray600 {background-color: #546E7A;}
+.material-bordercolor-bluegray600 {border-color: #546E7A;}
+
+.material-color-bluegray700 {color: #455A64;}
+.material-backgroundcolor-bluegray700 {background-color: #455A64;}
+.material-bordercolor-bluegray700 {border-color: #455A64;}
+
+.material-color-bluegray800 {color: #37474F;}
+.material-backgroundcolor-bluegray800 {background-color: #37474F;}
+.material-bordercolor-bluegray800 {border-color: #37474F;}
+
+.material-color-bluegray900 {color: #263238;}
+.material-backgroundcolor-bluegray900 {background-color: #263238;}
+.material-bordercolor-bluegray900 {border-color: #263238;}
+
+/* --------------------------------------------------------------------------------------------------------------------- Black
+   Use with #FFFFFF
+*/
+.material-color-black {color: #000000;}
+.material-backgroundcolor-black {background-color: #000000;}
+.material-bordercolor-black {border-color: #000000;}
+
+/* --------------------------------------------------------------------------------------------------------------------- White
+   Use with #000000
+*/
+.material-color-white {color: #FFFFFF;}
+.material-backgroundcolor-white {background-color: #FFFFFF;}
+.material-bordercolor-white {border-color: #FFFFFF;}
